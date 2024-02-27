@@ -1,0 +1,1 @@
+Fellow Terraform Ninjas, this is a sample file.
