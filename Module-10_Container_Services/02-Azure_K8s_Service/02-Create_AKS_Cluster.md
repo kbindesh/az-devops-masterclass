@@ -5,8 +5,7 @@ In this lab, we will perform following activities:
 - 01-Create Azure AKS Cluster
 - 02-Connect to Azure AKS Cluster using Azure Cloud Shell
 - 03-Explore Azure AKS Cluster Resources
-- 04-Install Azure CLI and Connect to Azure AKS Cluster using Azure CLI on local desktop
-- 05-Deploy Sample Application on AKS Cluster and test
+- 04-Deploy Sample Application on AKS Cluster and test
 
 ## Step-01: Create an Azure Kubernetes Services (AKS) cluster
 
@@ -37,4 +36,55 @@ In this lab, we will perform following activities:
 
 - Review+Create >> Create
 
-## Step-02:
+## Step-02: Connect to AKS Cluster using Azure CloudShell
+
+- Navigate to https://shell.azure.com
+- Get credntials in order to connect to AKS cluster:
+
+  ```
+  az aks get-credentials --resource-group <your_rg_name> --name <your_aks_cluster_name>
+
+  ```
+
+- Now you can run **kubectl** CLI in order to interact with AKS cluster.
+
+  ```
+  # List Kubernetes Worker Nodes
+    kubectl get nodes
+    kubectl get nodes -o wide
+
+  ```
+
+## Step-03: Explore Azure AKS Cluster Resources
+
+```
+  # List Pods in current Namespace
+    kubectl get pods
+
+  # List all the Pods in all the Namespace
+    kubectl get pods -A
+
+  # List all the Namespaces
+    kubectl get namespaces
+    OR
+    kubectl get ns
+```
+
+## Step-04: Deploy an Application on AKS Cluster manually
+
+```
+# Deploy an Application
+kubectl apply -f k8s-manifests/
+
+# Lists Pods
+kubectl get pods
+
+# List Deployments
+kubectl get deployments
+
+# Verify Service (keep external ip handy)
+kubectl get services
+
+# Access Application from local system
+http://<external_ip_from_previous_cmd>
+```

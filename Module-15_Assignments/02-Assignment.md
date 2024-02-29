@@ -6,9 +6,9 @@ In this lab, you will learn how to establish a local Git repository, which can e
 
 ### Task-01: Configuring Visual Studio Code for git
 
-### Task-02: Cloning an existing repository (remote)
+### Task-02: Clone an existing repository (remote)
 
-### Task-03: Commit the changes locally and check-in to central repositor (on feature-branch)
+### Task-03: Commit the changes locally and check-in to central repository (on feature-branch)
 
 ### Task-04: Manage Azure Repos branches (Staging, Production & Feature)
 
