@@ -5,7 +5,7 @@
 - Agile is an iterative approach to project management and software development that help teams deliver value to their customers faster and with fewer overhead.
 - Instead of building the whole software in one go, an agile team delivers work in small, but consumable increments.
 - Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly.
-<img src="images/agile.png" width="600" height="400" class="center">
+  <img src="images/agile.png" width="600" height="400" class="center">
 
 ## Scrum Team Structure
 
@@ -33,3 +33,24 @@
 ## Azure Boards: [Default Processes](https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&tabs=agile-process)
 
 <img src="images/azboardprocesses.png" width="400" height="360" class="center">
+
+## Labs
+
+### Lab-01: Demonstrate the working of Azure DevOps `Delivery Plan`
+
+### Lab-02: Demonstrate the working of Azure DevOps `Work Items`
+
+- **Sprint**: Create Sprint (Iteration)
+- **Backlog**: Create Backlog items
+- **Epic**: Create an Epic
+- **User Story**: Creating user story
+- **Task**: Adding Task to user story
+- **Bug**: Raising Bug
+
+### Lab-03: Demonstrate the working of Azure DevOps `Dashboards`
+
+- Create an Azure DevOps Dashboard
+- Pin widgets to a Dashboard
+- Viewing Dashboards as another user
+
+### Labs-04: Demonstrate the working of Azure Boards `Queries`
