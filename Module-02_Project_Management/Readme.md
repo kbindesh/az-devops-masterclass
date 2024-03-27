@@ -5,11 +5,11 @@
 - Agile is an iterative approach to project management and software development that help teams deliver value to their customers faster and with fewer overhead.
 - Instead of building the whole software in one go, an agile team delivers work in small, but consumable increments.
 - Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly.
-  ![agile](images/agile.png)
+<img src="images/agile.png" width="600" height="400" class="center">
 
 ## Scrum Team Structure
 
-![scrumteamstructure](images/scrumteamstructure.png)
+<img src="images/scrumteamstructure.png" width="550" height="400" class="center">
 
 ## Agile Software Development
 
@@ -32,4 +32,4 @@
 
 ## Azure Boards: [Default Processes](https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&tabs=agile-process)
 
-![boardsprocesses](images/azboardprocesses.png)
+<img src="images/azboardprocesses.png" width="400" height="360" class="center">
