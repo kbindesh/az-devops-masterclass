@@ -18,14 +18,20 @@
 - Docker provides the ability to package and run an application in a loosely isolated environment called a Container
 - The isolation and security allow you to run many containers simultaneously on a given host
 
-## 1.3 What is a Docker Container?
+## 1.3 What is a `Docker Images` & `Docker Container`?
 
 <img src="https://user-images.githubusercontent.com/121426292/229057732-3942c29f-70ec-4aa0-9a4a-481d83fa3ed7.png" data-canonical-src="[https://user-images.githubusercontent.com/121426292/229050098-c94ddecd-b438-476d-a932-7485e10a9900.png](https://user-images.githubusercontent.com/121426292/229057732-3942c29f-70ec-4aa0-9a4a-481d83fa3ed7.png)" width="140" height="90" />
+
+### Docker Container
 
 - A **Container** is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
 - A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 ![image](https://user-images.githubusercontent.com/121426292/229056677-9e84fed7-d02c-49f7-b26b-40743a9eab63.png)
+
+### Docker Images
+
+![dockerimg](images/dockerimg.png)
 
 ## 1.4 Advantages of running application in Docker Containers
 
@@ -37,7 +43,7 @@
 
 ## 1.5 Docker: Architecture
 
-<img src="https://user-images.githubusercontent.com/121426292/229060643-2c4f6083-20c2-4e61-9be0-b218bb2ac663.png" data-canonical-src="[https://user-images.githubusercontent.com/121426292/229060643-2c4f6083-20c2-4e61-9be0-b218bb2ac663.png]([https://user-images.githubusercontent.com/121426292/229057732-3942c29f-70ec-4aa0-9a4a-481d83fa3ed7.png](https://user-images.githubusercontent.com/121426292/229060643-2c4f6083-20c2-4e61-9be0-b218bb2ac663.png))" width="800" height="500" />
+<img src="images/dockerarchitecture.png" width="800" height="500" />
 
 ## 1.6 Docker: The underlying Technology
 
@@ -74,7 +80,3 @@
    - [Docker Engine](https://docs.docker.com/engine/)
    - [Install Docker Engine](https://docs.docker.com/engine/install/)
    - [Docker Images and Build](https://docs.docker.com/build/)
-   - [Docker Storage](https://docs.docker.com/storage/)
-   - [Docker Networking](https://docs.docker.com/network/)
-   - [Docker Compose](https://docs.docker.com/compose/)
-   - [Docker Swarm](https://docs.docker.com/get-started/orchestration/)
